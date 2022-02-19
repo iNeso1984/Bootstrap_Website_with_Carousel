@@ -1,0 +1,215 @@
+
+
+
+
+img{
+    border: solid 6px  #7e7e5fb2;
+    border-radius: 10px;
+    box-shadow: 3px 4px rgba(129, 122, 122, 0.397);
+}
+
+body{
+    color:#363605;
+    background-repeat:no-repeat;
+     background-image: url("images/salon6.jpg");
+     background-size: auto;
+     background-color: #333d41ab;
+    
+
+ 
+
+} 
+.bg-light{
+   background-color:#e6e481d5!important;
+   
+}
+
+nav{
+
+font-family: circe-slab-c, serif;
+
+font-weight: 700;
+
+font-style: normal;
+padding-left: 20px;
+
+}
+
+ h2, h3, h4, h5, h6, p {
+color:#050500;
+font-family: circe-slab-c, serif;
+
+font-weight: 700;
+
+font-style: normal;
+   
+
+}
+
+a{
+    color:#454500;
+}
+a:hover{
+    color:#2f0c42 !important;
+}
+a:active{
+    color: rgb(233, 138, 14) !important;
+}
+a:visited {
+  color: #30302a !important;
+}
+.jumbotron, .navbar-brand {
+  
+font-family: gill-sans-nova !important;
+
+font-weight: 900;
+
+padding-top: 20px;
+font-style: normal;
+
+
+}
+
+.map{
+    border: solid 10px #adad5265;
+    box-shadow:3px 4px rgba(201, 191, 191, 0.459);
+    background-color: #d6d6c0c9;
+    margin-top: 20px;
+    
+    margin-bottom: 20px;
+    border-radius: 100px;
+    padding-bottom: 80px;
+}
+
+.contact-us{font-family: gill-sans-nova !important;
+
+font-weight: 900;
+
+font-style: normal;
+padding-bottom: 20px;
+}
+
+.centering{
+    justify-content: center;
+}
+.carousel{
+   
+    height: 600px;
+    width: 600px;
+    bottom:20px;
+   
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.col-9, .col-4, .col-8, .shift, .col-3{
+    color:#38341c;
+    font-weight: 900;
+    
+    
+    
+}
+
+.sr-only{
+    color:rgb(255, 251, 0);
+     background-color: #010002;
+     border-radius: 5px;
+
+     background-size: 200px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    
+}
+.shift{  padding-top: 20px;
+    padding-left: 30px;}
+.footer{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.card, .card-img-top{
+    border-radius: 50px;
+}
+
+
+/* Queries */
+@media only screen and (max-width: 2000px) {
+  body {
+      background-size: 1500px 800px;
+
+    
+
+  }
+}
+ @media only screen and (max-width: 3000px) {
+  body {
+      background-size: 3000px;
+
+    
+
+  }
+}
+@media only screen and (max-width: 1920px) {
+  body {
+      background-size: 1800px ;
+
+ 
+
+  }
+}
+@media only screen and (max-width: 1200px) {
+  body {
+      background-size: 1200px 900px;
+
+ 
+
+  }
+  .centering{
+    padding-left: 10px;
+}
+  .carousel{
+   
+    height: 450px;
+    width: 450px;
+   
+   
+}
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+      background-size: 600px 500px;
+      
+        font-weight: 200;
+      
+
+  }
+  .display-4{
+      padding-left: 20px;
+     
+  }
+  .map{background-color: rgba(247, 247, 224, 0.863);
+    
+   
+}
+
+  .carousel{
+   
+    height: 400px;
+    width: 400px;
+   
+   
+}
+.footer{
+    padding-left: 40px;
+}
+.centering{
+    padding-left: 10px;
+}
+.shift{  padding-top: 10px;
+    padding-bottom: 20px;
+   
+    padding-left: 30px;}
+
+}
+
+ 
