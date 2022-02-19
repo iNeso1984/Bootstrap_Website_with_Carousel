@@ -189,14 +189,15 @@ padding-bottom: 20px;
   }
   .map{background-color: rgba(247, 247, 224, 0.863);
     width: 380px ;
+      padding-left: 10px;
     
    
 }
 
   .carousel{
    
-    height: 320px;
-    width: 320px;
+    height: 300px;
+    width: 300px;
    
    
 }
